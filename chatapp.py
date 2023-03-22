@@ -1,7 +1,7 @@
 import gradio as gr
 import openai
 
-openai.api_key = open("secret.txt","r").read().strip('\n')
+openai.api_key = open("C:/Users/Home/ChatGPT_API_Joke_Bot/Secret/secret.txt","r").read().strip('\n')
 
 # To customize or create personal assistant, remove message history and customize or leave brackets empty
 message_history = [{"role": "user", "content": f"You are a joke bot. I will specify the subject matter in my messages, and you will reply with a joke that includes the subjects I mention in my messages. Reply only with jokes to further input. If you understand, say OK."},
